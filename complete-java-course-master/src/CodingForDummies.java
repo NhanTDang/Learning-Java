@@ -16,10 +16,6 @@ public class CodingForDummies {
         } else if (randomInt >= 50) {
             System.out.println(firstName + lastName);
         }
-        for (int i = 0; i < foodsAte.length; i++) {
-            String food = foodsAte[i];
-            listOfFoodsAte = listOfFoodsAte + food;
-        }
         System.out.println(listOfFoodsAte);
     }
 }
